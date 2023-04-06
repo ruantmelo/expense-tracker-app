@@ -4,6 +4,8 @@ import { getFormattedDate } from "../../util/date";
 import { useNavigation } from "@react-navigation/native";
 
 export function ExpenseItem({id, description, date, amount}){
+
+   
     const navigation = useNavigation();
     
     function expensePressHandler(){
